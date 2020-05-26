@@ -109,3 +109,21 @@
     font-size: 25px;
 } 
 
+/* contact-form */
+.contact-form {
+    max-width: 350px;
+    margin: auto;
+    padding-top: 45px;
+}
+
+.contact-form input {
+    display: block;
+    width: 100%;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin: 14px;
+    display: block;
+    color: #4d1d18;
+}
