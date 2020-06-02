@@ -13,7 +13,7 @@
     --footer-text: #87423c;
     --footer-links: #87423c;
   }
-  
+
 .body {
     font-family: calibri, helvetica, sans-serif;
 }
@@ -47,7 +47,7 @@
 
 .main-nav a:hover {
     color: white;
-    background-color: #555555;
+    background-color: var(--primary-hover);
     transition: 0.6s ease;
     text-decoration: underline;
 }
@@ -126,6 +126,14 @@
 } 
 
 /* contact-form */
+.contact-content {
+    background-color: rgb(102, 39, 28);
+}
+
+.contact-content h1 {
+    color: whitesmoke;
+    font-size: 45px;
+}
 .contact-form {
     max-width: 350px;
     margin: auto;
@@ -141,7 +149,9 @@
     font-weight: bold;
     margin: 14px;
     display: block;
-    color: #4d1d18;
+    color:lightgrey;
 }
+
+
 
 /* footer */
