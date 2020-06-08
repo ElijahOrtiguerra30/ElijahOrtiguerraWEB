@@ -142,7 +142,7 @@
 .infoMap h1 {
     text-align: center;
     color: var(--major-headings);
-    padding-bottom: 550px;
+    padding-bottom: 520px;
     font-size: 36px;    
     text-shadow: 1px 1px 2px black; 
     text-transform: uppercase;
@@ -158,6 +158,8 @@
 
 .transpoTosorento {
     color: var(--sub-heading);
+    text-align: center;
+    padding-bottom: 20px;
 }
 .transpoTosorento h2 {
     font-size: 24px;
@@ -168,17 +170,11 @@
     background-color: lightslategrey;
 }
 
-.contact-content h3 {
-    color: var(--major-headings);
-    font-size: 36px;
-    padding-top: 5px;
-    text-align: center;
-}
 .contact-content h1 {
     color: var(--sub-heading);
     font-size: 24px;
     padding-top: 10px;
-    text-transform: none;
+    font-weight: bolder;
 }
 .contact-form {
     max-width: 500px;
