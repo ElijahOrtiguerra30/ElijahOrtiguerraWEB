@@ -337,6 +337,23 @@
 .WatchVideo iframe {
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 50%;
     transform: translate(-50%,-50%);
+}
+
+/* this the attraction */
+
+.attraction {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 1em;
+}
+.AtrCard{
+    color: var(--sub-heading);
+}
+.AtrCard h4 {
+    font-size: 24px;
 }
