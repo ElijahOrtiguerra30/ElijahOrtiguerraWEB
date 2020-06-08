@@ -317,7 +317,7 @@
 }
 
 
-/* This is CSS for SORRENTO VIDEO ONLY  */
+/* This is CSS for SORRENTO VIDEO   ONLY  */
 
 .WatchVideo {
     background-color: lightslategrey ;
@@ -341,7 +341,14 @@
     transform: translate(-50%,-50%);
 }
 
-/* this the attraction */
+/* this CSS for learn more(attractions in local area) */
+
+.localArea h1 {
+    color: var(--major-headings);
+    font-size: 36px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
 
 .attraction {
     max-width: 1000px;
