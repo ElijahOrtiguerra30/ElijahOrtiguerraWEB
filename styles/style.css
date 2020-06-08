@@ -315,3 +315,28 @@
     background-color: var(--primary-links);
     color: #eeeeee;
 }
+
+
+/* This is CSS for SORRENTO VIDEO ONLY  */
+
+.WatchVideo {
+    background-color: lightslategrey ;
+    margin: 0;
+}
+
+.WatchVideo h1 {
+    text-align: center;
+    color: var(--major-headings);
+    padding-top: 20px;
+    padding-bottom: 400px;
+    font-size: 36px;    
+    text-shadow: 1px 1px 2px black; 
+    text-decoration: none;
+}
+
+.WatchVideo iframe {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
