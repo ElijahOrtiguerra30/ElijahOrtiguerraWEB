@@ -111,7 +111,7 @@
     transition: 0.6s ease;
 }
 
-/* Appartment content */
+/* css of appartment introduction in indext.html*/
 
 .content {
     max-width: 1250px;
@@ -132,11 +132,36 @@
     font-size: 24px;
 } 
 
-/* contact-form */
+/* css for the contact.html  */
+
+/* information content css */
+.infoMap h1 {
+    text-align: center;
+    color: var(--major-headings);
+    font-size: 36px;    
+    text-shadow: 1px 1px 2px black; 
+    text-transform: uppercase;
+}
+
+.infoMap iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+
+
+/* css for booking form */
 .contact-content {
     background-color: lightslategrey;
 }
 
+.contact-content h3 {
+    color: var(--major-headings);
+    font-size: 36px;
+    padding-top: 5px;
+    text-align: center;
+}
 .contact-content h1 {
     color: var(--sub-heading);
     font-size: 24px;
@@ -144,7 +169,7 @@
     text-transform: none;
 }
 .contact-form {
-    max-width: 350px;
+    max-width: 500px;
     margin: auto;
     padding-top: 15px;
     padding-bottom: 50px;
