@@ -22,10 +22,72 @@
             </nav>
         </header>
 
-        <main>
-        <!-- content -->
+        <main class="information-content"></main>
+            <nav class="infoMap">
+                <h1>Getting there</h1>
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=15lj4zL22riRzL2aHwMVq-3dPcmgISUDg" width="640" height="480"></iframe>
+            </nav>
+
+            <nav class="transpoTosorento">
+                <h2>How to get to Sorrento by the Sea</h2>
+                <p>
+                    It is easy to find. From Melbourne, take the Monash Freeway, connect onto the Eastlink heading for Portsea, then onto the Peninsula link to Sorrento.
+                    <br>  
+                    Another option is the scenic drive around the beach. Although longer, it allows you to experience the coastline from Port Melbourne to Sorrento. 
+                    <br>
+                    If you choose to come across on the Queenscliff/Sorrento Ferry, it is only a 2 minute drive from the Ferry Depot. 
+                    <br>
+                    If you are a foot passenger we are happy to meet you at the Sorrento ferry at. Just phone us on 0435 123 456 as you arrive.
+                </p>
+            </nav>
         </main>
 
+        <section class="contact-content">
+                <h3>Sorrento by the Sea Apartment - Luxury Self Contained Apartment</h3>
+            <section class="contanct-banner">
+                <h1>Booking form<h1>
+            </section>
+            <form class="contact-form" method="POST">
+
+                <!-- your name input-->
+                <label for="name">Your Name:</label>
+                <input id="name" name="name" type="text" placeholder="eg. john augustin">
+
+                <!-- email input -->
+                <label for="email">E-mail:</label>
+                <input id="email" name="email" type="email" placeholder="email@domain.com">
+   
+                <!-- phone number -->
+                <label for="email">Contact Number:</label>
+                <input id="number" name="number" type="number" placeholder="eg. 0451 983 472">
+
+                <!-- date input -->
+                <label for="date">Booking Date:</label>
+                <input id="date" type="date" name="date">
+     
+                <!-- number of visitors -->
+                <label for="quantity">Number of visitors:</label>
+                <input type="number" id="quantity" name="visitors" min="1" max="16">
+
+                <!--comment section/text area for message-->
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" type="message" rows="4" cols="200" placeholder="type here..."></textarea>
+
+                <!-- select -->
+                <label for="state">Select State</label>
+                <select id="state" name="state">
+                    <option value="nsw" selected>New South Wales</option>
+                    <option value="vic">Victoria</option>
+                    <option value="qld">Queensland</option>
+                    <option value="tas">Tasmania</option>
+                    <option value="sa">South Australia</option>
+                    <option value="act">Australian Capital Territory</option>
+                </select>
+     
+                <button type="submit" class="contact-button">SUBMIT</button>
+                <button type="reset" class="contact-button">CLEAR</button>
+            </form>
+        </section>
         <!-- main footer-->
         <footer class="footer">
             <a href="contact.html" class="footer-contact">

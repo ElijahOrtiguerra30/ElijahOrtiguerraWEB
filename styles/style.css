@@ -138,10 +138,10 @@
 }
 
 .contact-content h1 {
-    color: var(--major-headings);
-    font-size: 45px;
+    color: var(--sub-heading);
+    font-size: 24px;
     padding-top: 10px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 .contact-form {
     max-width: 350px;
