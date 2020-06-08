@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.active {
+    color: white;
+    background-color: var(--primary-hover);
+}
 :root {
     /* css custom properties */
     --primary-links: #4d1d18;
@@ -46,7 +50,7 @@
 }
 
 .main-nav a:hover {
-    color: white;
+    color: var(--primary-links);
     background-color: var(--primary-hover);
     transition: 0.6s ease;
     text-decoration: underline;
@@ -99,8 +103,8 @@
 }
 
 .btn:hover {
-    background-color: #555555;
-    color: white;
+    background-color: var(--primary-hover);
+    color: var(--primary-links);
     transition: 0.6s ease;
 }
 
@@ -116,42 +120,109 @@
     padding: 3%;
 }
 .card{
-    color: #555555;
+    color: var(--sub-heading);
 }
 
 .card h4 {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 24px;
 } 
 
 /* contact-form */
 .contact-content {
-    background-color: rgb(102, 39, 28);
+    background-color: lightslategrey;
 }
 
 .contact-content h1 {
-    color: whitesmoke;
+    color: var(--major-headings);
     font-size: 45px;
+    padding-top: 10px;
+    text-transform: uppercase;
 }
 .contact-form {
     max-width: 350px;
     margin: auto;
-    padding-top: 45px;
+    padding-top: 15px;
+    padding-bottom: 50px;
 }
 
 .contact-form input {
     display: block;
-    width: 100%;
+    outline: none;
+}
+
+.contact-form textarea {
+    display: block;
+    outline: none;
+}
+
+.contact-form select {
+    display: block;
+    outline: none;
 }
 
 .contact-form label {
     font-weight: bold;
-    margin: 14px;
     display: block;
-    color:lightgrey;
+    color: var(--sub-heading);
 }
 
+.contact-form input[type="text"]{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-form input[type="email"]{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-form input[type="number"]{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-form input[type="date"]{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-form textarea[name="message"]{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-form select[name="state"]{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-button {
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+    color: var(--primary-links);
+    font-weight: bold;
+}
+
+.contact-button:hover {
+    background-color: var(--primary-hover);
+    color: var(--primary-links);
+    transition: 0.4s ease;
+}
 
 
 /* footer */

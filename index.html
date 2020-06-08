@@ -66,8 +66,9 @@
             <section class="contanct-banner">
                 <h1>Contact Us<h1>
             </section>
-            <form class="contact-form" method="POST" action="#">
+            <form class="contact-form" method="POST">
 
+                <!-- your name input-->
                 <label for="name">Your Name:</label>
                 <input id="name" name="name" type="text" placeholder="eg. john augustin">
 
@@ -80,29 +81,30 @@
                 <input id="number" name="number" type="number" placeholder="eg. 0451 983 472">
 
                 <!-- date input -->
-                <label for="date">Booking Date : </label>
+                <label for="date">Booking Date:</label>
                 <input id="date" type="date" name="date">
      
-                <!-- slider input -->
-                <label for="visitors">Number of visitors</label>
-                <input id="visitors" name="visitors" type="range" min="0" max="10" step="1" value="1">
-     
+                <!-- number of visitors -->
+                <label for="quantity">Number of visitors:</label>
+                <input type="number" id="quantity" name="visitors" min="1" max="16">
+
+                <!--comment section/text area for message-->
                 <label for="message">Your Message:</label>
-                <textarea id="message" name="message" type="name" rows="4" cols="50" placeholder="type here"></textarea>
+                <textarea id="message" name="message" type="message" rows="4" cols="200" placeholder="type here..."></textarea>
 
                 <!-- select -->
                 <label for="state">Select State</label>
                 <select id="state" name="state">
-                    <option value="nsw">NSW</option>
-                    <option value="vic" selected>VIC</option>
-                    <option value="qld">QLD</option>
-                    <option value="tas">TAS</option>
-                    <option value="sa">SA</option>
-                    <option value="act">ACT</option>
+                    <option value="nsw">New South Wales</option>
+                    <option value="vic" selected>Victoria</option>
+                    <option value="qld">Queensland</option>
+                    <option value="tas">Tasmania</option>
+                    <option value="sa">South Australia</option>
+                    <option value="act">Australian Capital Territory</option>
                 </select>
      
-                <button type="submit">SUBMIT</button>
-                <button type="reset">CLEAR</button>
+                <button type="submit" class="contact-button">SUBMIT</button>
+                <button type="reset" class="contact-button">CLEAR</button>
             </form>
         </section>
 
