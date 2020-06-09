@@ -69,7 +69,6 @@
 }
 
 .banner-text {
-    display: flex;
     padding: 10%;
 }
 
@@ -170,15 +169,23 @@
 
 /* css for booking form */
 .contact-content {
-    background-color: lightslategrey;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../assets/morningtonPeninsula.jpg");
+    width: 100%;
+    background-size: cover;
 }
 
-.contact-content h1 {
-    color: var(--sub-heading);
-    font-size: 24px;
-    padding-top: 10px;
-    font-weight: bolder;
+.contact-banner {
+    background-color: var(--primary-links);
+    color: white;
+    padding: 10px 30px;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
 }
+
 .contact-form {
     max-width: 500px;
     margin: auto;
@@ -204,7 +211,7 @@
 .contact-form label {
     font-weight: bold;
     display: block;
-    color: var(--sub-heading);
+    color: whitesmoke;
 }
 
 .contact-form input[type="text"]{
@@ -263,6 +270,14 @@
     transition: 0.4s ease;
 }
 
+/* contact-content h1 is for the booking form  */
+.contact-content h1 {
+    color: var(--sub-heading);
+    font-size: 24px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
 
 /* footer */
 
@@ -285,7 +300,7 @@
     max-height: 1.5rem;
     text-decoration: none;
     text-align: center;
-    border-radius: 0.5rem;
+    border-radius: 10px;
 }
   
 .social-navigation {
