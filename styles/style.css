@@ -419,6 +419,7 @@
     font-size: 36px;
     padding-left: 10px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .attraction {
@@ -434,4 +435,14 @@
 }
 .AtrCard h4 {
     font-size: 24px;
+}
+
+.AtrCard img {
+    height: 250px;
+    width: 450px;
+}
+
+.AtrCard img:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
 }
