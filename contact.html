@@ -58,19 +58,23 @@
    
                 <!-- phone number -->
                 <label for="email">Contact Number:</label>
-                <input id="number" name="number" type="number" placeholder="eg. 0451 983 472">
+                <input id="number" name="contactNumber" type="number" placeholder="eg. 0451 983 472">
 
-                <!-- date input -->
+                <!-- date check out -->
                 <label for="date">Check In:</label>
-                <input id="date" type="date" name="date">
+                <input id="date" type="date" name="checkIn">
 
-                <!-- date input -->
+                <!-- date check in -->
                 <label for="date">Check Out:</label>
-                <input id="date" type="date" name="date">
+                <input id="date" type="date" name="checkOut">
      
-                <!-- number of visitors -->
-                <label for="quantity">Number of visitors:</label>
-                <input type="number" id="quantity" name="visitors" min="1" max="16">
+                <!-- number of adults -->
+                <label for="quantity">Number of adults:</label>
+                <input type="number" id="adults" name="adults" value="1" min="1" max="6">
+
+                <!-- number of children -->
+                <label for="quantity">Number of adults:</label>
+                <input type="number" id="childrens" name="childrens" value="0" min="1" max="6">
 
                 <!--comment section/text area for message-->
                 <label for="message">Your Message:</label>
