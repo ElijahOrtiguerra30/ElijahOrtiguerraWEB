@@ -106,8 +106,8 @@
 }
 
 .btn:hover {
-    background-color: var(--primary-hover);
-    color: var(--primary-links);
+    background-color: var(--primary-links);
+    color: white;
     transition: 0.6s ease;
 }
 
@@ -280,7 +280,8 @@
     border-radius: 20px;
     margin-bottom: 5px;
     padding: 5px;
-    color: var(--primary-links);
+    background-color: var(--primary-links);
+    color: whitesmoke;
     font-weight: bold;
 }
 
