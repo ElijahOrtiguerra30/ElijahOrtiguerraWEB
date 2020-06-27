@@ -90,6 +90,27 @@
                     <option value="sa">South Australia</option>
                     <option value="act">Australian Capital Territory</option>
                 </select>
+
+                <div class="payment">
+
+                    <label class="full" for="card-type">Card Type</label>
+                    <select name="card-type">
+                        <option value="msterCard" selected>Masrter Card</option>
+                        <option value="visa">Visa</option>
+                        <option value="amrcnEx">American Express</option>
+                        <option value="pPall">PayPall</option>
+                    </select>
+                    
+                    <label class="full" for="card-number">Card Number</label>
+                    <input type="text" name="card-number" placeholder="0000-0000-0000-0000">
+
+                    <label class="full" for="cvv">CVV</label>
+                    <input type="text" name="cvv" id="cvv" placeholder="123">
+
+                    <label class="full" for="card-name">Name on the card</label>
+                    <input type="text" name="card-name" id="card-name" placeholder="eg. John Augustin">
+
+                </div>
      
                 <button type="submit" class="contact-button">SUBMIT</button>
                 <button type="reset" class="contact-button">CLEAR</button>

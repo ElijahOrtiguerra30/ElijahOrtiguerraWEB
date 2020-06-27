@@ -293,6 +293,24 @@
     transition: 0.4s ease;
 }
 
+.payment .full{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .payment input[type="text"] {
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+
+.payment select[name="card-type"] {
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
 /* contact-content h1 is for the booking form  */
 .contact-content h1 {
     color: var(--sub-heading);
@@ -300,6 +318,7 @@
     padding-top: 10px;
     font-weight: bolder;
 }
+
 
 
 /* footer */
@@ -542,4 +561,5 @@
     width: 500px;
     padding-bottom: 10px;
 }
+
 
