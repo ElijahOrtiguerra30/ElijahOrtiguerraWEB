@@ -484,6 +484,12 @@
 /* about-content html css */
 
 .about-content {
+    background-color: var(--header-background) ;
+    width: 100%;
+    background-size: cover;
+}
+
+.about-content-items{
     max-width: 1200px;
     margin: auto;
     display: grid;
@@ -499,14 +505,41 @@
 .beachCard img {
     height: 300px;
     width: 550px;
+    border-radius: 2rem;
 }
 
 .beachCard h1 {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
     font-size: 24px;
 }
 
 .beachCard p {
     font-size: 15px;
 }
+
+.petInfo {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/assets/morningtonPeninsula.jpg");
+    width: 100%;
+    background-size: cover;
+}
+
+.petInfo-text-items {
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 180px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.petFriendly {
+    max-width: 1000px;
+}
+
+.petFriendly img {
+    border-radius: 10rem;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
