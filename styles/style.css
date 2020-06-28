@@ -563,3 +563,39 @@
 }
 
 
+/* appartment.html css */
+
+.costdetail-content h1 {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    text-decoration: var(--major-headings);
+    text-transform: uppercase;
+}
+
+.costdetail-content-item {
+    max-width: 1024px;
+    padding-left: 15rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 1em;
+}
+
+.costdetail-text {
+    color: black;
+}
+
+.appartment-content {
+    max-width: 1250px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 3em;
+    padding: 2%;
+}
+
+.appartment-card img{
+    border-radius: 5rem;
+    border: solid black;
+}
