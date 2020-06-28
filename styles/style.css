@@ -599,3 +599,9 @@
     border-radius: 5rem;
     border: solid black;
 }
+
+.appartment-card img:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
+    transition: 1s;
+}
